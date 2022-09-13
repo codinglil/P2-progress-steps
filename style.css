@@ -51,8 +51,8 @@ h1 {
   width: 0%;
   top: 50%;
   left: 0;
-  /* transform: translateY(-50%);
-  z-index: -1; */
+  transform: translateY(-50%);
+  z-index: -1;
   transition: 0.4s ease;
 }
 .circle {
@@ -89,6 +89,6 @@ h1 {
 .btn:active {
   transform: scale(0.98);
 }
-/* .btn:focus {
+.btn:focus {
   outline: 0;
-} */
+}
